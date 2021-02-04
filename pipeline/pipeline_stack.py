@@ -40,5 +40,5 @@ class PipelineStack(core.Stack):
         bucket = s3.Bucket(self,
                            "MyFirstBucket",
                            versioned=True,
-                           public_read_access=True,
+                           public_read_access=False,
                            removal_policy=core.RemovalPolicy.DESTROY)
