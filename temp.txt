@@ -1,0 +1,122 @@
+pip install attrs==20.3.0
+pip install aws-cdk.assets==1.88.0
+pip install aws-cdk.aws-apigateway==1.88.0
+pip install aws-cdk.aws-apigatewayv2==1.88.0
+pip install aws-cdk.aws-applicationautoscaling==1.88.0
+pip install aws-cdk.aws-autoscaling==1.88.0
+pip install aws-cdk.aws-autoscaling-common==1.88.0
+pip install aws-cdk.aws-autoscaling-hooktargets==1.88.0
+pip install aws-cdk.aws-batch==1.88.0
+pip install aws-cdk.aws-certificatemanager==1.88.0
+pip install aws-cdk.aws-cloudformation==1.88.0
+pip install aws-cdk.aws-cloudfront==1.88.0
+pip install aws-cdk.aws-cloudwatch==1.88.0
+pip install aws-cdk.aws-codebuild==1.88.0
+pip install aws-cdk.aws-codecommit==1.88.0
+pip install aws-cdk.aws-codedeploy==1.88.0
+pip install aws-cdk.aws-codeguruprofiler==1.88.0
+pip install aws-cdk.aws-codepipeline==1.88.0
+pip install aws-cdk.aws-codepipeline-actions==1.88.0
+pip install aws-cdk.aws-cognito==1.88.0
+pip install aws-cdk.aws-ec2==1.88.0
+pip install aws-cdk.aws-ecr==1.88.0
+pip install aws-cdk.aws-ecr-assets==1.88.0
+pip install aws-cdk.aws-ecs==1.88.0
+pip install aws-cdk.aws-efs==1.88.0
+pip install aws-cdk.aws-elasticloadbalancing==1.88.0
+pip install aws-cdk.aws-elasticloadbalancingv2==1.88.0
+pip install aws-cdk.aws-events==1.88.0
+pip install aws-cdk.aws-events-targets==1.88.0
+pip install aws-cdk.aws-iam==1.88.0
+pip install aws-cdk.aws-kinesis==1.88.0
+pip install aws-cdk.aws-kinesisfirehose==1.88.0
+pip install aws-cdk.aws-kms==1.88.0
+pip install aws-cdk.aws-lambda==1.88.0
+pip install aws-cdk.aws-logs==1.88.0
+pip install aws-cdk.aws-route53==1.88.0
+pip install aws-cdk.aws-route53-targets==1.88.0
+pip install aws-cdk.aws-s3==1.88.0
+pip install aws-cdk.aws-s3-assets==1.88.0
+pip install aws-cdk.aws-sam==1.88.0
+pip install aws-cdk.aws-secretsmanager==1.88.0
+pip install aws-cdk.aws-servicecatalog==1.88.0
+pip install aws-cdk.aws-servicediscovery==1.88.0
+pip install aws-cdk.aws-sns==1.88.0
+pip install aws-cdk.aws-sns-subscriptions==1.88.0
+pip install aws-cdk.aws-sqs==1.88.0
+pip install aws-cdk.aws-ssm==1.88.0
+pip install aws-cdk.aws-stepfunctions==1.88.0
+pip install aws-cdk.cloud-assembly-schema==1.88.0
+pip install aws-cdk.core==1.88.0
+pip install aws-cdk.custom-resources==1.88.0
+pip install aws-cdk.cx-api==1.88.0
+pip install aws-cdk.pipelines==1.88.0
+pip install aws-cdk.region-info==1.88.0
+pip install cattrs==1.1.2
+pip install constructs==3.3.7
+pip install jsii==1.20.0
+pip install publication==0.0.3
+pip install python-dateutil==2.8.1
+pip install six==1.15.0
+pip install typing-extensions==3.7.4.3
+RUN pip install attrs==20.3.0
+RUN pip install aws-cdk.assets==1.88.0
+RUN pip install aws-cdk.aws-apigateway==1.88.0
+RUN pip install aws-cdk.aws-apigatewayv2==1.88.0
+RUN pip install aws-cdk.aws-applicationautoscaling==1.88.0
+RUN pip install aws-cdk.aws-autoscaling==1.88.0
+RUN pip install aws-cdk.aws-autoscaling-common==1.88.0
+RUN pip install aws-cdk.aws-autoscaling-hooktargets==1.88.0
+RUN pip install aws-cdk.aws-batch==1.88.0
+RUN pip install aws-cdk.aws-certificatemanager==1.88.0
+RUN pip install aws-cdk.aws-cloudformation==1.88.0
+RUN pip install aws-cdk.aws-cloudfront==1.88.0
+RUN pip install aws-cdk.aws-cloudwatch==1.88.0
+RUN pip install aws-cdk.aws-codebuild==1.88.0
+RUN pip install aws-cdk.aws-codecommit==1.88.0
+RUN pip install aws-cdk.aws-codedeploy==1.88.0
+RUN pip install aws-cdk.aws-codeguruprofiler==1.88.0
+RUN pip install aws-cdk.aws-codepipeline==1.88.0
+RUN pip install aws-cdk.aws-codepipeline-actions==1.88.0
+RUN pip install aws-cdk.aws-cognito==1.88.0
+RUN pip install aws-cdk.aws-ec2==1.88.0
+RUN pip install aws-cdk.aws-ecr==1.88.0
+RUN pip install aws-cdk.aws-ecr-assets==1.88.0
+RUN pip install aws-cdk.aws-ecs==1.88.0
+RUN pip install aws-cdk.aws-efs==1.88.0
+RUN pip install aws-cdk.aws-elasticloadbalancing==1.88.0
+RUN pip install aws-cdk.aws-elasticloadbalancingv2==1.88.0
+RUN pip install aws-cdk.aws-events==1.88.0
+RUN pip install aws-cdk.aws-events-targets==1.88.0
+RUN pip install aws-cdk.aws-iam==1.88.0
+RUN pip install aws-cdk.aws-kinesis==1.88.0
+RUN pip install aws-cdk.aws-kinesisfirehose==1.88.0
+RUN pip install aws-cdk.aws-kms==1.88.0
+RUN pip install aws-cdk.aws-lambda==1.88.0
+RUN pip install aws-cdk.aws-logs==1.88.0
+RUN pip install aws-cdk.aws-route53==1.88.0
+RUN pip install aws-cdk.aws-route53-targets==1.88.0
+RUN pip install aws-cdk.aws-s3==1.88.0
+RUN pip install aws-cdk.aws-s3-assets==1.88.0
+RUN pip install aws-cdk.aws-sam==1.88.0
+RUN pip install aws-cdk.aws-secretsmanager==1.88.0
+RUN pip install aws-cdk.aws-servicecatalog==1.88.0
+RUN pip install aws-cdk.aws-servicediscovery==1.88.0
+RUN pip install aws-cdk.aws-sns==1.88.0
+RUN pip install aws-cdk.aws-sns-subscriptions==1.88.0
+RUN pip install aws-cdk.aws-sqs==1.88.0
+RUN pip install aws-cdk.aws-ssm==1.88.0
+RUN pip install aws-cdk.aws-stepfunctions==1.88.0
+RUN pip install aws-cdk.cloud-assembly-schema==1.88.0
+RUN pip install aws-cdk.core==1.88.0
+RUN pip install aws-cdk.custom-resources==1.88.0
+RUN pip install aws-cdk.cx-api==1.88.0
+RUN pip install aws-cdk.pipelines==1.88.0
+RUN pip install aws-cdk.region-info==1.88.0
+RUN pip install cattrs==1.1.2
+RUN pip install constructs==3.3.7
+RUN pip install jsii==1.20.0
+RUN pip install publication==0.0.3
+RUN pip install python-dateutil==2.8.1
+RUN pip install six==1.15.0
+RUN pip install typing-extensions==3.7.4.3

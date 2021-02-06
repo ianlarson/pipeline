@@ -2,5 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cdk.out/environment/container-demo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cdk.out/environment/ecsdemo-crystal" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cdk.out/environment/ecsdemo-frontend" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cdk.out/environment/ecsdemo-nodejs" vcs="Git" />
   </component>
 </project>
