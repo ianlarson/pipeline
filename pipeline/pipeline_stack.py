@@ -12,7 +12,8 @@ class PipelineStack(core.Stack):
                            "MyFirstBucket",
                            versioned=True,
                            public_read_access=False,
-                           removal_policy=core.RemovalPolicy.DESTROY)
+                           removal_policy=core.RemovalPolicy.DESTROY,
+                           auto_delete_objects=True)
 
         # vpc = ec2.Vpc(self, "TheVPC",
         #               cidr="10.1.0.0/16")
