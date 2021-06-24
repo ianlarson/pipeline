@@ -10,7 +10,7 @@ class PipelineStack(core.Stack):
 
         bucket = s3.Bucket(self,
                            "illarsoMyFirstBucket12341234",
-                           bucket_name='illarsomyfirstbucket12341234567',
+                           bucket_name='illarsomyfirstbucket12',
                            versioned=False,
                            public_read_access=False,
                            removal_policy=core.RemovalPolicy.DESTROY)
