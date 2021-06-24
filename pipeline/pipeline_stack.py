@@ -9,8 +9,8 @@ class PipelineStack(core.Stack):
         super().__init__(scope, construct_id, **kwargs)
 
         bucket = s3.Bucket(self,
-                           "MyFirstBucket",
-                           versioned=True,
+                           "illarsoMyFirstBucket12341234",
+                           versioned=False,
                            public_read_access=False,
                            removal_policy=core.RemovalPolicy.DESTROY)
 
